@@ -28,7 +28,7 @@ public class TwoSums {
                         stop = true;
                     }
                     if (j == i-1)
-                        stop = true;
+                        i--;
                 }
             }
         }
