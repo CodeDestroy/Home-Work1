@@ -14,7 +14,7 @@ public class Main {
             System.out.println("Reverse integer works: " + reverseInteger.reverse(-456));
         }
         catch (Exception e){
-            System.out.println("Ошибка ввода");
+            System.out.println("Ошибка ввода, данное число не может быть конвертированно!");
         }
     }
 }
